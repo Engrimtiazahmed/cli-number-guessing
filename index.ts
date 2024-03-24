@@ -5,7 +5,7 @@ const answer = await inquirer.prompt([
   {
     name: "userGuessNumber",
     type: "number",
-    massage: "Please guess a number between 1-10:",
+    message: "Please guess a number between 1-10:",
   },
 ]);
 
